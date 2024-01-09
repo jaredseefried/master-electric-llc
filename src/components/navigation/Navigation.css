@@ -1,0 +1,12 @@
+.home-link {
+  font-weight: 700;
+}
+
+.navbar-brand {
+  color: #141b1f;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(238, 238, 238, var(--bs-bg-opacity)) !important;
+}
