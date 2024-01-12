@@ -7,7 +7,7 @@ import "./Navigation.css";
 export default function Navigation() {
   return (
     <>
-      <Navbar className="bg-body-tertiary">
+      <Navbar className="bg-body-tertiary shadow bg-body-tertiary rounded">
         <Container className="nav-continer">
           <Navbar.Brand
             href="#home"
