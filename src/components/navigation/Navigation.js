@@ -8,7 +8,7 @@ export default function Navigation() {
   return (
     <>
       <Navbar className="bg-body-tertiary">
-        <Container>
+        <Container className="nav-continer">
           <Navbar.Brand
             href="#home"
             className="d-flex align-items-center home-link"

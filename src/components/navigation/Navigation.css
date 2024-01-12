@@ -7,6 +7,11 @@
 }
 
 .bg-body-tertiary {
-  --bs-bg-opacity: 1;
-  background-color: rgba(238, 238, 238, var(--bs-bg-opacity)) !important;
+  --bs-bg-opacity: 0.5;
+  background-color: rgba(165, 141, 104, var(--bs-bg-opacity)) !important;
+}
+
+.nav-continer {
+  margin-left: 4% !important;
+  margin-right: 0 !important;
 }
