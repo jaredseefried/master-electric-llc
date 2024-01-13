@@ -1,0 +1,10 @@
+.contact-banner {
+  position: absolute;
+  width: 31%;
+  left: auto;
+  right: 4%;
+  display: flex;
+  top: 3%;
+  height: 20%;
+  /* background-color: white; */
+}
