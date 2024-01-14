@@ -6,10 +6,22 @@ import CardImage from "../../images/main.png";
 export default function Services() {
   return (
     <>
+      <Container>
+        <Row>
+          <Col>
+            <h1 class="main-content-h1">
+              Denver Metro Residential and Commercial Electrical Services
+            </h1>
+          </Col>
+        </Row>
+      </Container>
       <Container className="services-container">
         <Row>
           <Col>
-            <Card className="services-card-style" style={{ width: "24rem" }}>
+            <Card
+              className="shadow services-card-style"
+              style={{ width: "24rem" }}
+            >
               <Card.Img variant="top" src={CardImage} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
@@ -26,7 +38,10 @@ export default function Services() {
             </Card>
           </Col>
           <Col>
-            <Card className="services-card-style" style={{ width: "24rem" }}>
+            <Card
+              className="shadow mb-5 services-card-style"
+              style={{ width: "24rem" }}
+            >
               <Card.Img variant="top" src={CardImage} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
@@ -43,7 +58,10 @@ export default function Services() {
             </Card>
           </Col>
           <Col>
-            <Card className="services-card-style" style={{ width: "24rem" }}>
+            <Card
+              className="shadow mb-5 services-card-style"
+              style={{ width: "24rem" }}
+            >
               <Card.Img variant="top" src={CardImage} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>

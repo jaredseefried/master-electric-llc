@@ -1,0 +1,25 @@
+.review-section {
+  background-color: #dbdbdb;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#card-row-1 {
+  margin-bottom: 3%;
+}
+
+.review-card-header {
+  display: flex !important;
+}
+
+.review-card-title {
+  display: flex;
+}
+
+.review-card-text {
+  text-align: left;
+}
+
+.checked {
+  color: orange;
+}
