@@ -6,5 +6,24 @@
   display: flex;
   top: 3%;
   height: 20%;
-  /* background-color: white; */
+  /* background-color: #eee; */
+  z-index: 1000;
+}
+
+.card-style {
+  background-color: #e71d36;
+  border-color: white;
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.contact-card-header {
+  color: #fafaff;
+  border-bottom: #fafaff !important;
+}
+
+.social-icons {
+  margin: 3%;
+  width: 10%;
+  color: white;
 }

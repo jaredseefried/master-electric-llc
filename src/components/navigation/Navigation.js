@@ -3,22 +3,21 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import MasterElectricLogo from "../../images/Master-Electric-LLC.png";
 import "./Navigation.css";
-// import ContactBanner from "../ContactBanner/ContactBanner";
+import ContactBanner from "../ContactBanner/ContactBanner";
 
 export default function Navigation() {
   return (
     <>
-      <Navbar className="bg-body-tertiary shadow bg-body-tertiary rounded">
+      <Navbar className="shadow rounded main-nav">
         <Container className="nav-continer">
           <Navbar.Brand
             href="#home"
-            className="d-flex align-items-center home-link"
+            className="d-flex align-items-center home-link fs-1"
           >
             <img
               alt="Master Electric LLC Logo"
               src={MasterElectricLogo}
-              width="80"
-              className="d-inline-block align-top"
+              className="d-inline-block align-top ma-logo"
             />{" "}
             Master Electric, LLC
           </Navbar.Brand>

@@ -7,11 +7,25 @@
 }
 
 .bg-body-tertiary {
-  --bs-bg-opacity: 0.5;
-  background-color: rgba(165, 141, 104, var(--bs-bg-opacity)) !important;
+  /* --bs-bg-opacity: 0.7; */
+  /* background-color: #f8f9fa !important; */
 }
 
 .nav-continer {
   margin-left: 4% !important;
   margin-right: 0 !important;
+}
+
+.main-nav {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* right: 12%; */
+  z-index: 500;
+}
+
+.ma-logo {
+  width: 9%;
 }

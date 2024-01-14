@@ -2,20 +2,20 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import "../ContactBanner/ContactBanner.css";
 import Card from "react-bootstrap/Card";
-import { SocialIcon } from "react-social-icons/component";
-import "react-social-icons/facebook";
-import "react-social-icons/instagram";
-import "react-social-icons/yelp";
+import { BsFacebook, BsYelp, BsLinkedin, BsInstagram } from "react-icons/bs";
 
 export default function ContactBanner() {
   return (
     <div className="contact-banner">
-      <Card border="light" style={{ width: "32rem" }}>
+      <Card className="card-style" style={{ width: "32rem" }}>
+        <Card.Header className="contact-card-header">
+          Call: 720-339-5614
+        </Card.Header>
         <Card.Body>
-          <Card.Title>Call: 720-339-5614</Card.Title>
-          <SocialIcon url="www.facebook.com" />
-          <SocialIcon url="www.instagram.com" />
-          <SocialIcon url="www.yelp.com" />
+          <BsFacebook className="social-icons" />
+          <BsInstagram className="social-icons" />
+          <BsLinkedin className="social-icons" />
+          <BsYelp className="social-icons" />
         </Card.Body>
       </Card>
     </div>
