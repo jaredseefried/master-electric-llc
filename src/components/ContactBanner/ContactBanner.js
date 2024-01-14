@@ -7,7 +7,20 @@ import { BsFacebook, BsYelp, BsLinkedin, BsInstagram } from "react-icons/bs";
 export default function ContactBanner() {
   return (
     <div className="contact-banner">
-      <Card className="card-style" style={{ width: "32rem" }}>
+      <Card className="card-style">
+        <Card.Body>
+          <Card.Title id="call-today">
+            Call Today!
+            <br /> 720-339-5614{" "}
+          </Card.Title>
+          <BsFacebook className="social-icons" />
+          <BsInstagram className="social-icons" />
+          <BsLinkedin className="social-icons" />
+          <BsYelp className="social-icons" />
+        </Card.Body>
+      </Card>
+
+      {/* <Card className="card-style" style={{ width: "32rem" }}>
         <Card.Header className="contact-card-header">
           Call: 720-339-5614
         </Card.Header>
@@ -17,7 +30,7 @@ export default function ContactBanner() {
           <BsLinkedin className="social-icons" />
           <BsYelp className="social-icons" />
         </Card.Body>
-      </Card>
+      </Card> */}
     </div>
   );
 }

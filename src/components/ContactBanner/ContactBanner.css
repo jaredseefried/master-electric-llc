@@ -1,29 +1,38 @@
 .contact-banner {
   position: absolute;
-  width: 31%;
-  left: auto;
+  /* width: 31%; */
+  /* left: auto; */
   right: 4%;
-  display: flex;
+  /* display: flex; */
   top: 3%;
-  height: 20%;
+  /* height: 20%; */
   /* background-color: #eee; */
   z-index: 1000;
 }
 
 .card-style {
-  background-color: #68774f;
-  border-color: white;
+  background-color: #141b1f;
+  border-color: rgb(104, 119, 79);
+  border-radius: 50%;
+  border-width: 6px;
   font-weight: bold;
   font-size: 42px;
-}
-
-.contact-card-header {
-  color: #fafaff;
-  border-bottom: #fafaff !important;
+  color: white;
+  width: 25rem;
+  height: auto;
 }
 
 .social-icons {
-  margin: 3%;
+  /* margin: 3%; */
   width: 10%;
-  color: white;
+  font-size: 30px;
+  color: #a58d68;
+  margin: 0% 2% 0% 2%;
+}
+
+#call-today {
+  margin-top: 2%;
+  font-size: 32px;
+  font-weight: bold;
+  /* border-bottom: #68774f; */
 }
