@@ -8,6 +8,7 @@ import "../Reviews/Reviews.css";
 export default function Reviews() {
   return (
     <div className="review-section">
+      <h1 id="reviews-title">Reviews</h1>
       <Container>
         <Row id="card-row-1">
           <Col>

@@ -23,3 +23,7 @@
 .checked {
   color: orange;
 }
+
+#reviews-title {
+  padding-bottom: 2%;
+}
