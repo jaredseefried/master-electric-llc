@@ -1,9 +1,17 @@
-.card-style {
-  /* border-color: #68774f; */
+.main-header-line {
+  margin-top: 2%;
 }
 
 .services-container {
   margin-top: 2%;
-  /* margin-bottom: 2%; */
-  /* padding-bottom: 2%; */
+}
+
+.main-content-h1 {
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.card-body-title,
+.card-body-text {
+  margin-top: 3%;
 }

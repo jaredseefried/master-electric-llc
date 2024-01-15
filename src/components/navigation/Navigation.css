@@ -3,12 +3,7 @@
 }
 
 .navbar-brand {
-  color: #141b1f;
-}
-
-.bg-body-tertiary {
-  /* --bs-bg-opacity: 0.7; */
-  /* background-color: #f8f9fa !important; */
+  color: white;
 }
 
 .nav-continer {
@@ -17,15 +12,16 @@
 }
 
 .main-nav {
-  position: fixed;
-  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  /* background-color: rgba(255, 255, 255, 0.5); */
   top: 0;
   left: 0;
   width: 100%;
   /* right: 12%; */
   z-index: 500;
+  color: white;
 }
 
 .ma-logo {
-  width: 9%;
+  width: 12%;
 }

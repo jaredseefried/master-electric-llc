@@ -8,11 +8,11 @@ import ContactBanner from "../ContactBanner/ContactBanner";
 export default function Navigation() {
   return (
     <>
-      <Navbar className="shadow rounded main-nav">
+      <Navbar className="main-nav">
         <Container className="nav-continer">
           <Navbar.Brand
             href="#home"
-            className="d-flex align-items-center home-link fs-1"
+            className="d-flex align-items-center home-link"
           >
             <img
               alt="Master Electric LLC Logo"
