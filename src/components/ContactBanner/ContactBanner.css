@@ -8,26 +8,29 @@
 .card-style {
   background-color: rgba(20, 27, 31, 0.7);
   border-color: rgba(104, 119, 79, 0.7);
-  /* border-radius: 5%; */
+  /* border-color: white; */
+  border-radius: 0%;
   border-width: 5px;
   font-weight: bold;
   font-size: 42px;
   color: white;
-  width: 29rem;
-  height: 13rem;
+  width: 35rem;
+  height: 10rem;
 }
 
 .social-icons {
-  /* margin: 3%; */
   width: 10%;
   font-size: 40px;
   color: #a58d68;
-  margin: 0% 2% 0% 2%;
+  margin: 0% 1% 0% 1%;
+  text-align: left;
+}
+
+.social-icons:hover {
+  color: #fff;
 }
 
 #call-today {
-  /* margin-top: 2%; */
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
-  /* border-bottom: #68774f; */
 }

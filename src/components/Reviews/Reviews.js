@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
-import "../Reviews/Reviews.css";
+import "./Reviews.css";
 
 export default function Reviews() {
   return (

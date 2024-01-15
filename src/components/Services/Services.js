@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
-import "../Services/Services.css";
+import "./Services.css";
 import CardImage from "../../images/main.png";
 
 export default function Services() {

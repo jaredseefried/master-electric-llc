@@ -10,8 +10,7 @@ export default function ContactBanner() {
       <Card className="card-style">
         <Card.Body>
           <Card.Title id="call-today">
-            Call Today!
-            <br /> 720-339-5614{" "}
+            <strong>Call Today! </strong>720-339-5614{" "}
           </Card.Title>
           <BsFacebook className="social-icons" />
           <BsInstagram className="social-icons" />
