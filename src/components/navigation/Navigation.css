@@ -1,9 +1,7 @@
-.home-link {
-  font-weight: 700;
-}
-
 .navbar-brand {
   color: white;
+  /* display: flex; */
+  /* align-items: center; */
 }
 
 .nav-continer {
@@ -21,15 +19,66 @@
 }
 
 .ma-logo {
-  width: 10%;
+  position: absolute;
+  width: 13%;
+  top: 0;
 }
 
 .hp-link {
   color: white;
+  font-size: 30px;
 }
 
 @media screen and (min-width: 1400px) {
   .nav-continer {
     max-width: 86%;
   }
+}
+
+.social-icons {
+  color: white;
+  font-size: 32px;
+  /* margin-left: 10%; */
+}
+
+.social-icon-container {
+  margin-left: 6%;
+  margin-top: 7%;
+}
+
+@media screen and (min-width: 992px) {
+  social-icon-container {
+    flex-basis: none;
+  }
+}
+
+#call-today {
+  font-size: 30px;
+}
+
+#call-today:hover {
+  color: white;
+}
+
+.navbar-nav .nav-link.active {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.home-link {
+  width: 98%;
+  /* display: flex; */
+  /* align-items: center; */
+}
+
+.ms-auto {
+  margin-left: auto;
+}
+
+div#responsive-navbar-nav {
+  width: 100%;
 }

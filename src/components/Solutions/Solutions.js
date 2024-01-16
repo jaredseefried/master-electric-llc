@@ -6,7 +6,7 @@ import { FaPlugCircleCheck } from "react-icons/fa6";
 
 export default function Solutions() {
   return (
-    <div className="lighting-list-container">
+    <div className="lighting-list-container" id="lighting-list-container">
       <h1 className="lighting-solutions">
         <FaBolt id="bolt-icon" />
         Lighting Solutions:

@@ -7,7 +7,7 @@ import "./Reviews.css";
 
 export default function Reviews() {
   return (
-    <div className="review-section">
+    <div className="review-section" id="review-section">
       <h1 id="reviews-title">Reviews</h1>
       <Container>
         <Row id="card-row-1">

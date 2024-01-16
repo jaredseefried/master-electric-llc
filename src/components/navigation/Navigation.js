@@ -10,46 +10,48 @@ import { BsFacebook, BsYelp, BsLinkedin, BsInstagram } from "react-icons/bs";
 export default function Navigation() {
   return (
     <>
-      <Navbar expand="lg" className="main-nav">
+      <Navbar collapseOnSelect expand="lg" className="main-nav" id="main-nav">
         <Container className="nav-continer">
-          <Navbar.Brand
-            href="#home"
-            className="d-flex align-items-center home-link"
-          >
+          <Nav href="#home" className="d-flex align-items-center home-link">
             <img
               alt="Master Electric LLC Logo"
               src={MasterElectricLogo}
               className="d-inline-block align-top ma-logo"
             />{" "}
             Master Electric, LLC
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          </Nav>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home" className="hp-link">
-                Home
+              <Nav.Link href="#main-header-line" className="hp-link">
+                Services
               </Nav.Link>
-              <Nav.Link href="#link" className="hp-link">
-                Link
+              <Nav.Link href="#lighting-list-container" className="hp-link">
+                Solutions
               </Nav.Link>
+              <Nav.Link href="#review-section" className="hp-link">
+                Reviews
+              </Nav.Link>
+            </Nav>
+            <Nav>
               <Navbar.Brand id="call-today">
-                Call Today!
+                <strong>Call Today!</strong>
                 <br /> 720-339-5614{" "}
               </Navbar.Brand>
+              <Navbar.Text className="social-icon-container">
+                <BsFacebook className="social-icons" />
+              </Navbar.Text>
+              <Navbar.Text className="social-icon-container">
+                <BsInstagram className="social-icons" />
+              </Navbar.Text>
+              <Navbar.Text className="social-icon-container">
+                <BsLinkedin className="social-icons" />
+              </Navbar.Text>
+              <Navbar.Text className="social-icon-container">
+                <BsYelp className="social-icons" />
+              </Navbar.Text>
             </Nav>
           </Navbar.Collapse>
-          <Navbar.Text>
-            <BsFacebook className="social-icons" />
-          </Navbar.Text>
-          <Navbar.Text>
-            <BsInstagram className="social-icons" />
-          </Navbar.Text>
-          <Navbar.Text>
-            <BsLinkedin className="social-icons" />
-          </Navbar.Text>
-          <Navbar.Text>
-            <BsYelp className="social-icons" />
-          </Navbar.Text>
         </Container>
       </Navbar>
     </>
