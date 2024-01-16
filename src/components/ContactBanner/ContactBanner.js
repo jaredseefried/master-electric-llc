@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import "../ContactBanner/ContactBanner.css";
+// import "../ContactBanner/ContactBanner.css";
 import Card from "react-bootstrap/Card";
 import { BsFacebook, BsYelp, BsLinkedin, BsInstagram } from "react-icons/bs";
 

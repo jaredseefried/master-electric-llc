@@ -7,21 +7,29 @@
 }
 
 .nav-continer {
-  margin-left: 4% !important;
-  margin-right: 0 !important;
+  /* margin-left: 0% !important; */
+  /* margin-right: 0 !important; */
+  width: 100%;
 }
 
 .main-nav {
   position: absolute;
-  /* background-color: rgba(255, 255, 255, 0.5); */
-  top: 0;
-  left: 0;
+  background-color: rgba(20, 27, 31, 0.7);
+  border-bottom: 5px solid rgba(104, 119, 79, 0.7);
   width: 100%;
-  /* right: 12%; */
   z-index: 500;
-  color: white;
 }
 
 .ma-logo {
-  width: 12%;
+  width: 10%;
+}
+
+.hp-link {
+  color: white;
+}
+
+@media screen and (min-width: 1400px) {
+  .nav-continer {
+    max-width: 86%;
+  }
 }

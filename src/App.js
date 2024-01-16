@@ -1,6 +1,6 @@
 import "./App.css";
 import Banner from "./components/Banner/Banner";
-import ContactBanner from "./components/ContactBanner/ContactBanner";
+// import ContactBanner from "./components/ContactBanner/ContactBanner";
 // import MainContent from "./components/MainContent/MainContent";
 import Navigation from "./components/navigation/Navigation";
 import Reviews from "./components/Reviews/Reviews";
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Navigation />
       <Banner />
-      <ContactBanner />
+      {/* <ContactBanner /> */}
       <Services />
       <Solutions />
       <Reviews />
