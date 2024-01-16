@@ -13,9 +13,7 @@ Master Electric, LLC is a website for Corey Divis Electrical business in Denver,
 
 ### Deployed Site @ https://jaredseefried.github.io/master-electric-llc
 
----
-
-![Master Electric, LLC](./src/images/Master-Electric-LLC.png)
+--
 
 # Technologies Used
 
