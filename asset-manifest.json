@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/master-electric-llc/static/css/main.06617ad0.css",
+    "main.js": "/master-electric-llc/static/js/main.539ecf9d.js",
+    "static/media/main.png": "/master-electric-llc/static/media/main.6fdd639b75a0e7056e10.png",
+    "static/media/Master-Electric-LLC.png": "/master-electric-llc/static/media/Master-Electric-LLC.eb66427f00a1a60e3e58.png",
+    "index.html": "/master-electric-llc/index.html",
+    "main.06617ad0.css.map": "/master-electric-llc/static/css/main.06617ad0.css.map",
+    "main.539ecf9d.js.map": "/master-electric-llc/static/js/main.539ecf9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06617ad0.css",
+    "static/js/main.539ecf9d.js"
+  ]
+}
