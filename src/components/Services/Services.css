@@ -1,5 +1,6 @@
 .main-header-line {
   margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .services-container {
@@ -14,4 +15,8 @@
 .card-body-title,
 .card-body-text {
   margin-top: 3%;
+}
+
+#mission-statement {
+  font-size: large;
 }

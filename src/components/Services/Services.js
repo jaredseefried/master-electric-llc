@@ -18,7 +18,7 @@ export default function Services() {
       <Container>
         <Row>
           <Col>
-            <p>
+            <p id="mission-statement">
               At Master Electric, we are committed to illuminating your world
               with excellence. Rooted in unwavering integrity, we pledge to
               deliver unparalleled electrical solutions for both commercial and

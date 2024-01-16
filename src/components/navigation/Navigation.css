@@ -27,10 +27,10 @@
 .hp-link {
   color: white;
   font-size: 28px;
-  border-left: 2px solid rgba(255, 255, 255m 0.7);
-  border-bottom: 2px solid rgba(255, 255, 255m 0.7);
-  border-top: 2px solid rgba(255, 255, 255m 0.7);
-  border-right: 2px solid rgba(255, 255, 255m 0.7);
+  border-left: 2px solid rgba(20, 27, 31, 0.1);
+  border-bottom: 2px solid rgba(20, 27, 31, 0.1);
+  border-top: 2px solid rgba(20, 27, 31, 0.1);
+  border-right: 2px solid rgba(20, 27, 31, 0.1);
 }
 
 @media screen and (min-width: 1400px) {
