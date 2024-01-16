@@ -1,10 +1,9 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
-import { Navbar, NavDropdown } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 import MasterElectricLogo from "../../images/Master-Electric-LLC.png";
 import "./Navigation.css";
-import ContactBanner from "../ContactBanner/ContactBanner";
 import { BsFacebook, BsYelp, BsLinkedin, BsInstagram } from "react-icons/bs";
 
 export default function Navigation() {

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "react-bootstrap/Image";
 import MainImage from "../../images/main.png";
-import "./Banner.css"; // Import the CSS file for styling
+import "./Banner.css";
 
 export default function Banner() {
   return (
