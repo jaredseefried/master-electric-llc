@@ -26,7 +26,11 @@
 
 .hp-link {
   color: white;
-  font-size: 30px;
+  font-size: 28px;
+  border-left: 2px solid rgba(255, 255, 255m 0.7);
+  border-bottom: 2px solid rgba(255, 255, 255m 0.7);
+  border-top: 2px solid rgba(255, 255, 255m 0.7);
+  border-right: 2px solid rgba(255, 255, 255m 0.7);
 }
 
 @media screen and (min-width: 1400px) {
@@ -38,7 +42,10 @@
 .social-icons {
   color: white;
   font-size: 32px;
-  /* margin-left: 10%; */
+}
+
+.social-icons:hover {
+  color: #a58d68;
 }
 
 .social-icon-container {
@@ -65,8 +72,11 @@
 }
 
 .navbar-nav .nav-link:hover {
-  color: white;
-  text-decoration: underline;
+  color: #a58d68;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  border-top: 2px #141b1f;
+  border-right: 2px #141b1f;
 }
 
 .home-link {
