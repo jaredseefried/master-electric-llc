@@ -53,8 +53,21 @@
   margin-top: 7%;
 }
 
-@media screen and (min-width: 992px) {
-  social-icon-container {
+@media screen and (max-width: 992px) {
+  .text-overlay {
+    font-size: 47px;
+    margin-top: 8%;
+  }
+  #call-today {
+    font-size: 24px;
+  }
+  .nav-continer {
+    width: 87%;
+  }
+  .hp-link {
+    font-size: 24px;
+  }
+  .social-icon-container {
     flex-basis: none;
   }
 }

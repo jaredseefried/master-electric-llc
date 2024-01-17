@@ -20,3 +20,19 @@
 #mission-statement {
   font-size: large;
 }
+
+.services-card-style {
+  /* width: 24rem; */
+  height: 41rem;
+}
+
+@media screen and (min-width: 992px) {
+  .main-content-h1 {
+    font-weight: bolder;
+    font-size: 32px;
+  }
+
+  .services-card-style {
+    width: auto;
+  }
+}
