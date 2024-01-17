@@ -1,5 +1,30 @@
 .footer-container {
   background-color: #141b1f;
   color: white;
-  padding: 3% 0% 3% 0%;
+  padding: 1% 0% 1% 0%;
+  /* text-align: left; */
+  /* width: 100%; */
+}
+
+#footer-name,
+#footer-description,
+#footer-label,
+#footer-number,
+#footer-email {
+  text-align: left;
+}
+
+#footer-label,
+#footer-number,
+#footer-email {
+  padding-left: 30%;
+}
+
+.footer-social-icons {
+  font-size: 30px;
+  margin-right: 5%;
+}
+
+#footer-number {
+  margin-bottom: 0rem;
 }
