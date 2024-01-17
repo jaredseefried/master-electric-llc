@@ -1,7 +1,9 @@
 import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import "./Services.css";
-import CardImage from "../../images/main.png";
+import OverheadLight from "../../images/overhead-light.jpg";
+import KitchenRemodel from "../../images/kitchen-remodel.jpg";
+import Wiring from "../../images/wiring.jpg";
 
 export default function Services() {
   return (
@@ -37,9 +39,9 @@ export default function Services() {
           <Col>
             <Card
               className="shadow services-card-style"
-              style={{ width: "24rem", height: "36rem" }}
+              style={{ width: "24rem", height: "41rem" }}
             >
-              <Card.Img variant="top" src={CardImage} />
+              <Card.Img variant="top" src={OverheadLight} />
               <Card.Body className="card-body-style">
                 <Card.Title className="card-body-title">
                   Diverse Expertise
@@ -59,9 +61,9 @@ export default function Services() {
           <Col>
             <Card
               className="shadow mb-5 services-card-style"
-              style={{ width: "24rem", height: "36rem" }}
+              style={{ width: "24rem", height: "41rem" }}
             >
-              <Card.Img variant="top" src={CardImage} />
+              <Card.Img variant="top" src={KitchenRemodel} />
               <Card.Body className="card-body-style">
                 <Card.Title className="card-body-title">
                   How I Can Help
@@ -81,9 +83,9 @@ export default function Services() {
           <Col>
             <Card
               className="shadow mb-5 services-card-style"
-              style={{ width: "24rem", height: "36rem" }}
+              style={{ width: "24rem", height: "41rem" }}
             >
-              <Card.Img variant="top" src={CardImage} />
+              <Card.Img variant="top" src={Wiring} />
               <Card.Body className="card-body-style">
                 <Card.Title className="card-body-title">
                   Certified and Licensed
