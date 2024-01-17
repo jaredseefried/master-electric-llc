@@ -37,7 +37,7 @@ export default function Services() {
       <Container className="services-container">
         <Row>
           <Col>
-            <Card className="shadow services-card-style">
+            <Card className="shadow mb-5 services-card-style">
               <Card.Img variant="top" src={OverheadLight} />
               <Card.Body className="card-body-style">
                 <Card.Title className="card-body-title">

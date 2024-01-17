@@ -11,7 +11,7 @@ export default function Reviews() {
       <h1 id="reviews-title">Reviews</h1>
       <Container>
         <Row id="card-row-1">
-          <Col>
+          <Col className="col-12 col-sm-6">
             <Card className="shadow-sm bg-white rounded review-cards">
               <Card.Header className="review-card-header">
                 <span className="fa fa-star checked"></span>
@@ -42,7 +42,7 @@ export default function Reviews() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col className="col-12 col-sm-6">
             <Card className="shadow-sm bg-white rounded review-cards">
               <Card.Header className="review-card-header">
                 <span className="fa fa-star checked"></span>
@@ -71,7 +71,7 @@ export default function Reviews() {
           </Col>
         </Row>
         <Row id="card-row-2">
-          <Col>
+          <Col className="col-12 col-sm-6">
             <Card className="shadow-sm bg-white rounded review-cards">
               <Card.Header className="review-card-header">
                 <span className="fa fa-star checked"></span>
@@ -106,7 +106,7 @@ export default function Reviews() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col className="col-12 col-sm-6">
             <Card className="shadow-sm bg-white rounded review-cards">
               <Card.Header className="review-card-header">
                 <span className="fa fa-star checked"></span>

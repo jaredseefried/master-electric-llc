@@ -36,3 +36,16 @@
     width: auto;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .main-content-h1 {
+    font-size: 30px;
+  }
+
+  .services-card-style {
+    width: auto;
+  }
+  .services-card-style {
+    width: 25rem;
+  }
+}

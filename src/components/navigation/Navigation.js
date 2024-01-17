@@ -17,7 +17,6 @@ export default function Navigation() {
               src={MasterElectricLogo}
               className="d-inline-block align-top ma-logo"
             />{" "}
-            Master Electric, LLC
           </Nav>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

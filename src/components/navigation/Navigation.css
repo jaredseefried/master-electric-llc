@@ -67,10 +67,6 @@
 }
 
 @media only screen and (max-width: 1300px) {
-  .text-overlay {
-    font-size: 47px;
-    margin-top: 8%;
-  }
   #call-today {
     font-size: 21px;
   }
@@ -86,5 +82,17 @@
 
   .nav-continer {
     max-width: 86%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .main-nav {
+    position: relative;
+    background-color: rgba(20, 27, 31);
+  }
+  .ma-logo {
+    position: absolute;
+    width: 26%;
+    top: 0;
   }
 }
