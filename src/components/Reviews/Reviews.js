@@ -12,7 +12,10 @@ export default function Reviews() {
       <Container>
         <Row id="card-row-1">
           <Col className="col-12 col-sm-6">
-            <Card className="shadow-sm bg-white rounded review-cards">
+            <Card
+              className="shadow-sm bg-white rounded review-cards"
+              id="review-card1"
+            >
               <Card.Header className="review-card-header">
                 <span className="fa fa-star checked"></span>
                 <span className="fa fa-star checked"></span>
@@ -43,7 +46,10 @@ export default function Reviews() {
             </Card>
           </Col>
           <Col className="col-12 col-sm-6">
-            <Card className="shadow-sm bg-white rounded review-cards">
+            <Card
+              className="shadow-sm bg-white rounded review-cards"
+              id="review-card2"
+            >
               <Card.Header className="review-card-header">
                 <span className="fa fa-star checked"></span>
                 <span className="fa fa-star checked"></span>
@@ -72,7 +78,10 @@ export default function Reviews() {
         </Row>
         <Row id="card-row-2">
           <Col className="col-12 col-sm-6">
-            <Card className="shadow-sm bg-white rounded review-cards">
+            <Card
+              className="shadow-sm bg-white rounded review-cards"
+              id="review-card3"
+            >
               <Card.Header className="review-card-header">
                 <span className="fa fa-star checked"></span>
                 <span className="fa fa-star checked"></span>
@@ -107,7 +116,10 @@ export default function Reviews() {
             </Card>
           </Col>
           <Col className="col-12 col-sm-6">
-            <Card className="shadow-sm bg-white rounded review-cards">
+            <Card
+              className="shadow-sm bg-white rounded review-cards"
+              id="review-card4"
+            >
               <Card.Header className="review-card-header">
                 <span className="fa fa-star checked"></span>
                 <span className="fa fa-star checked"></span>

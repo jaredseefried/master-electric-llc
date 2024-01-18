@@ -36,8 +36,8 @@ export default function Services() {
       </Container>
       <Container className="services-container">
         <Row>
-          <Col>
-            <Card className="shadow mb-5 services-card-style">
+          <Col className="col-12 col-md-4">
+            <Card className="shadow services-card-style">
               <Card.Img variant="top" src={OverheadLight} />
               <Card.Body className="card-body-style">
                 <Card.Title className="card-body-title">
@@ -55,8 +55,8 @@ export default function Services() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
-            <Card className="shadow mb-5 services-card-style">
+          <Col className="col-12 col-md-4">
+            <Card className="shadow services-card-style">
               <Card.Img variant="top" src={KitchenRemodel} />
               <Card.Body className="card-body-style">
                 <Card.Title className="card-body-title">
@@ -74,8 +74,8 @@ export default function Services() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
-            <Card className="shadow mb-5 services-card-style">
+          <Col className="col-12 col-md-4">
+            <Card className="shadow services-card-style">
               <Card.Img variant="top" src={Wiring} />
               <Card.Body className="card-body-style">
                 <Card.Title className="card-body-title">

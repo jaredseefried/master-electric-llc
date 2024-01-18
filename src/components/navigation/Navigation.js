@@ -36,6 +36,8 @@ export default function Navigation() {
                 <strong>Call Today!</strong>
                 <br /> 720-339-5614{" "}
               </Navbar.Brand>
+            </Nav>
+            <Nav className="social-icon-container1">
               <Navbar.Text className="social-icon-container">
                 <BsFacebook className="social-icons" />
               </Navbar.Text>

@@ -34,8 +34,26 @@
   text-align: left;
 }
 
-@media screen and (max-width: 450px) {
+@media only screen and (max-width: 1024px) {
+  .lighting-list {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .lighting-list {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
   .lighting-list {
     font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .lighting-list {
+    font-size: 7px;
   }
 }

@@ -31,16 +31,16 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1440px) {
   .text-overlay {
-    font-size: 47px;
+    font-size: 56px;
     margin-top: 8%;
   }
 }
 
 @media only screen and (max-width: 1024px) {
   .text-overlay {
-    font-size: 37px;
+    font-size: 40px;
     margin-top: 0%;
   }
   .banner-image {
@@ -55,6 +55,13 @@
   }
 }
 
+@media only screen and (max-width: 770px) {
+  .text-overlay {
+    font-size: 30px;
+    margin-top: 0%;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   .banner-container {
     height: 35vh;
@@ -64,5 +71,13 @@
   }
   .text-overlay {
     font-size: 32px;
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .text-overlay {
+    font-size: 24px;
+    margin-top: 0%;
   }
 }

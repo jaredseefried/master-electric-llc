@@ -5,6 +5,7 @@
 
 .services-container {
   margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .main-content-h1 {
@@ -22,18 +23,14 @@
 }
 
 .services-card-style {
-  /* width: 24rem; */
+  width: auto;
   height: 41rem;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 1024px) {
   .main-content-h1 {
     font-weight: bolder;
-    font-size: 32px;
-  }
-
-  .services-card-style {
-    width: auto;
+    font-size: 42px;
   }
 }
 
@@ -44,8 +41,13 @@
 
   .services-card-style {
     width: auto;
+    height: auto;
+    margin-bottom: 8%;
   }
-  .services-card-style {
-    width: 25rem;
+}
+
+@media only screen and (max-width: 320px) {
+  .main-content-h1 {
+    font-size: 22px;
   }
 }

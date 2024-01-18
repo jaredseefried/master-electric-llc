@@ -28,3 +28,21 @@
 #footer-number {
   margin-bottom: 0rem;
 }
+
+@media screen and (max-width: 450px) {
+  #footer-email {
+    padding-left: 0%;
+  }
+  #footer-label,
+  #footer-number,
+  #footer-email {
+    padding-left: 0%;
+  }
+
+  #footer-name {
+    margin-top: 3%;
+  }
+  #footer-social-icons-container {
+    margin-bottom: 3%;
+  }
+}
