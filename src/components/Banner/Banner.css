@@ -38,7 +38,7 @@
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1081px) {
   .text-overlay {
     font-size: 40px;
     margin-top: 0%;
@@ -55,7 +55,7 @@
   }
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 810px) {
   .text-overlay {
     font-size: 30px;
     margin-top: 0%;
