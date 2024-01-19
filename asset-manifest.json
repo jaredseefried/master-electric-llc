@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/master-electric-llc/static/css/main.248e6864.css",
-    "main.js": "/master-electric-llc/static/js/main.5a6ac033.js",
-    "static/media/main1.jpg": "/master-electric-llc/static/media/main1.338a4343c400b289c1cd.jpg",
-    "static/media/overhead-light.jpg": "/master-electric-llc/static/media/overhead-light.7ac563623a5f4e63c410.jpg",
-    "static/media/kitchen-remodel.jpg": "/master-electric-llc/static/media/kitchen-remodel.b6fb530a3acfebb126e0.jpg",
-    "static/media/wiring.jpg": "/master-electric-llc/static/media/wiring.12ca4c6987755cd75ed5.jpg",
-    "static/media/Master-Electric-LLC.png": "/master-electric-llc/static/media/Master-Electric-LLC.eb66427f00a1a60e3e58.png",
-    "index.html": "/master-electric-llc/index.html",
-    "main.248e6864.css.map": "/master-electric-llc/static/css/main.248e6864.css.map",
-    "main.5a6ac033.js.map": "/master-electric-llc/static/js/main.5a6ac033.js.map"
+    "main.css": "/static/css/main.248e6864.css",
+    "main.js": "/static/js/main.8dbe11ca.js",
+    "static/media/main1.jpg": "/static/media/main1.338a4343c400b289c1cd.jpg",
+    "static/media/overhead-light.jpg": "/static/media/overhead-light.7ac563623a5f4e63c410.jpg",
+    "static/media/kitchen-remodel.jpg": "/static/media/kitchen-remodel.b6fb530a3acfebb126e0.jpg",
+    "static/media/wiring.jpg": "/static/media/wiring.12ca4c6987755cd75ed5.jpg",
+    "static/media/Master-Electric-LLC.png": "/static/media/Master-Electric-LLC.eb66427f00a1a60e3e58.png",
+    "index.html": "/index.html",
+    "main.248e6864.css.map": "/static/css/main.248e6864.css.map",
+    "main.8dbe11ca.js.map": "/static/js/main.8dbe11ca.js.map"
   },
   "entrypoints": [
     "static/css/main.248e6864.css",
-    "static/js/main.5a6ac033.js"
+    "static/js/main.8dbe11ca.js"
   ]
 }
