@@ -34,7 +34,7 @@ export default function Navigation() {
             <Nav>
               <Navbar.Brand id="call-today">
                 <strong>Call Today!</strong>
-                <br /> 720-339-5614{" "}
+                <br /> 720-465-1384{" "}
               </Navbar.Brand>
             </Nav>
             <Nav className="social-icon-container1">

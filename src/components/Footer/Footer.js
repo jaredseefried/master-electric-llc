@@ -17,7 +17,7 @@ export default function Footer() {
           </Col>
           <Col className="col-12 col-md-4">
             <h3 id="footer-label">Contact</h3>
-            <p id="footer-number">720-339-5614</p>
+            <p id="footer-number">720-465-1384</p>
             <p id="footer-email">masterelectricllc@outlook.com</p>
           </Col>
           <Col className="col-12 col-md-4" id="footer-social-icons-container">
