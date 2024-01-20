@@ -39,7 +39,7 @@
 }
 
 .social-icon-container {
-  margin-left: 6%;
+  margin-left: 20%;
   margin-top: 7%;
 }
 
@@ -87,7 +87,7 @@
 
 @media only screen and (max-width: 770px) {
   .main-nav {
-    position: relative;
+    /* position: relative; */
     background-color: rgba(20, 27, 31);
   }
   .ma-logo {

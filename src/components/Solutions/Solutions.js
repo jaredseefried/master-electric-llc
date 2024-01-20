@@ -13,25 +13,25 @@ export default function Solutions() {
       </h1>
       <Container>
         <Row>
-          <Col className="lighting-list-col">
+          <Col className="lighting-list-col col-12 col-md-3">
             <p className="lighting-list">
               <FaPlugCircleCheck className="circle-plug-icon" />
               Lighting Control System
             </p>
           </Col>
-          <Col className="lighting-list-col">
+          <Col className="lighting-list-col col-12 col-md-3">
             <p className="lighting-list">
               <FaPlugCircleCheck className="circle-plug-icon" />
               Panel Services
             </p>
           </Col>
-          <Col className="lighting-list-col">
+          <Col className="lighting-list-col col-12 col-md-3">
             <p className="lighting-list">
               <FaPlugCircleCheck className="circle-plug-icon" />
               Basement Remodels
             </p>
           </Col>
-          <Col className="lighting-list-col">
+          <Col className="lighting-list-col col-12 col-md-3">
             <p className="lighting-list">
               <FaPlugCircleCheck className="circle-plug-icon" />
               Kitchen and Bath{" "}
@@ -39,25 +39,25 @@ export default function Solutions() {
           </Col>
         </Row>
         <Row>
-          <Col className="lighting-list-col">
+          <Col className="lighting-list-col col-12 col-md-3">
             <p className="lighting-list">
               <FaPlugCircleCheck className="circle-plug-icon" />
               Exterior and Garages
             </p>
           </Col>
-          <Col className="lighting-list-col">
+          <Col className="lighting-list-col col-12 col-md-3">
             <p className="lighting-list">
               <FaPlugCircleCheck className="circle-plug-icon" />
               Aluminum Wiring Rewire
             </p>
           </Col>
-          <Col className="lighting-list-col">
+          <Col className="lighting-list-col col-12 col-md-3">
             <p className="lighting-list">
               <FaPlugCircleCheck className="circle-plug-icon" />
               Breaker Installation
             </p>
           </Col>
-          <Col className="lighting-list-col">
+          <Col className="lighting-list-col col-12 col-md-3">
             <p className="lighting-list">
               <FaPlugCircleCheck className="circle-plug-icon" />
               Grounding Systems
@@ -65,25 +65,25 @@ export default function Solutions() {
           </Col>
         </Row>
         <Row>
-          <Col className="lighting-list-col">
+          <Col className="lighting-list-col col-12 col-md-3">
             <p className="lighting-list">
               <FaPlugCircleCheck className="circle-plug-icon" />
               Surge Protection
             </p>
           </Col>
-          <Col className="lighting-list-col">
+          <Col className="lighting-list-col col-12 col-md-3">
             <p className="lighting-list">
               <FaPlugCircleCheck className="circle-plug-icon" />
               Smoke Detector Install
             </p>
           </Col>
-          <Col className="lighting-list-col">
+          <Col className="lighting-list-col col-12 col-md-3">
             <p className="lighting-list">
               <FaPlugCircleCheck className="circle-plug-icon" />
               New Construction
             </p>
           </Col>
-          <Col className="lighting-list-col">
+          <Col className="lighting-list-col col-12 col-md-3">
             <p className="lighting-list">
               <FaPlugCircleCheck className="circle-plug-icon" />
               Troubleshooting

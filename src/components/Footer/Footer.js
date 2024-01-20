@@ -21,7 +21,6 @@ export default function Footer() {
             <p id="footer-email">masterelectricllc@outlook.com</p>
           </Col>
           <Col className="col-12 col-md-4" id="footer-social-icons-container">
-            <BsFacebook className="footer-social-icons" />
             <BsInstagram className="footer-social-icons" />
             <BsLinkedin className="footer-social-icons" />
             <BsYelp className="footer-social-icons" />{" "}

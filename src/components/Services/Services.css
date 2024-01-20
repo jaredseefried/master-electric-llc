@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 450px) {
   .main-content-h1 {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .services-card-style {
@@ -44,10 +44,19 @@
     height: auto;
     margin-bottom: 8%;
   }
+  #mission-statement {
+    font-size: small;
+  }
+  .card-body-text {
+    font-size: small;
+  }
 }
 
 @media only screen and (max-width: 320px) {
   .main-content-h1 {
-    font-size: 22px;
+    font-size: 17px;
+  }
+  #mission-statement {
+    font-size: small;
   }
 }

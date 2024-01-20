@@ -62,22 +62,54 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .banner-overlay {
+    height: 45vh;
+  }
+  .banner-container {
+    height: 45vh;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   .banner-container {
-    height: 35vh;
+    height: 22vh;
   }
   .banner-overlay {
-    height: 35vh;
+    height: 22vh;
   }
+  .text-overlay {
+    font-size: 38px;
+    border: none;
+    margin-top: 21%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .text-overlay {
+    font-size: 30px;
+    border: none;
+    margin-top: 21%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
   .text-overlay {
     font-size: 32px;
     border: none;
+    margin-top: 20%;
   }
 }
 
 @media only screen and (max-width: 320px) {
+  .banner-container {
+    height: 19vh;
+  }
+  .banner-overlay {
+    height: 19vh;
+  }
   .text-overlay {
-    font-size: 24px;
-    margin-top: 0%;
+    font-size: 28px;
+    margin-top: 21%;
   }
 }

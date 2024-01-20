@@ -39,9 +39,6 @@ export default function Navigation() {
             </Nav>
             <Nav className="social-icon-container1">
               <Navbar.Text className="social-icon-container">
-                <BsFacebook className="social-icons" />
-              </Navbar.Text>
-              <Navbar.Text className="social-icon-container">
                 <BsInstagram className="social-icons" />
               </Navbar.Text>
               <Navbar.Text className="social-icon-container">
