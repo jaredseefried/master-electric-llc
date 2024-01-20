@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.248e6864.css",
-    "main.js": "/static/js/main.8dbe11ca.js",
+    "main.css": "/static/css/main.80c0e81a.css",
+    "main.js": "/static/js/main.9f8f0b96.js",
     "static/media/main1.jpg": "/static/media/main1.338a4343c400b289c1cd.jpg",
     "static/media/overhead-light.jpg": "/static/media/overhead-light.7ac563623a5f4e63c410.jpg",
     "static/media/kitchen-remodel.jpg": "/static/media/kitchen-remodel.b6fb530a3acfebb126e0.jpg",
     "static/media/wiring.jpg": "/static/media/wiring.12ca4c6987755cd75ed5.jpg",
     "static/media/Master-Electric-LLC.png": "/static/media/Master-Electric-LLC.eb66427f00a1a60e3e58.png",
     "index.html": "/index.html",
-    "main.248e6864.css.map": "/static/css/main.248e6864.css.map",
-    "main.8dbe11ca.js.map": "/static/js/main.8dbe11ca.js.map"
+    "main.80c0e81a.css.map": "/static/css/main.80c0e81a.css.map",
+    "main.9f8f0b96.js.map": "/static/js/main.9f8f0b96.js.map"
   },
   "entrypoints": [
-    "static/css/main.248e6864.css",
-    "static/js/main.8dbe11ca.js"
+    "static/css/main.80c0e81a.css",
+    "static/js/main.9f8f0b96.js"
   ]
 }
