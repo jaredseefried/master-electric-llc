@@ -24,19 +24,28 @@
 
 .services-card-style {
   width: auto;
-  height: 41rem;
+  height: 100%;
+  text-align: left;
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .main-content-h1 {
     font-weight: bolder;
-    font-size: 42px;
+    font-size: 27px;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media only screen and (max-width: 810px) {
+}
+.card-body-text.card-text {
+  font-size: small;
+  text-align: left;
+}
+
+@media only screen and (max-width: 450px) {
   .main-content-h1 {
     font-size: 20px;
+    text-align: left;
   }
 
   .services-card-style {
@@ -46,6 +55,7 @@
   }
   #mission-statement {
     font-size: small;
+    text-align: left;
   }
   .card-body-text {
     font-size: small;

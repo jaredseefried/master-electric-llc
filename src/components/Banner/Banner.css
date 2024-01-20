@@ -43,13 +43,11 @@
     font-size: 40px;
     margin-top: 0%;
   }
-  .banner-image {
-    padding-top: 0%;
-  }
 
   .banner-overlay {
     height: 55vh;
   }
+
   .banner-container {
     height: 55vh;
   }
@@ -57,8 +55,9 @@
 
 @media only screen and (max-width: 810px) {
   .text-overlay {
-    font-size: 30px;
-    margin-top: 0%;
+    font-size: 54px;
+    margin-top: 10%;
+    width: 87%;
   }
 }
 
@@ -69,48 +68,47 @@
   .banner-container {
     height: 45vh;
   }
+  .text-overlay {
+    font-size: 43px;
+    margin-top: 10%;
+    width: 73%;
+  }
 }
 
 @media only screen and (max-width: 450px) {
   .banner-container {
-    height: 22vh;
+    height: 35vh;
+    align-items: normal;
   }
   .banner-overlay {
-    height: 22vh;
+    height: 35vh;
   }
   .text-overlay {
-    font-size: 28px;
-    border: none;
-    margin-top: 21%;
+    /* display: none; */
     width: 100%;
-  }
-}
-
-@media only screen and (max-width: 425px) {
-  .text-overlay {
-    font-size: 28px;
+    font-size: 57px;
+    margin-top: 20%;
+    text-align: left;
+    padding-left: 3%;
     border: none;
-    margin-top: 21%;
   }
 }
 
 @media only screen and (max-width: 375px) {
+  .banner-container {
+    height: 35vh;
+    align-items: normal;
+  }
+  .banner-overlay {
+    height: 35vh;
+  }
   .text-overlay {
-    font-size: 27px;
-    border: none;
-    margin-top: 20%;
+    font-size: 55px;
   }
 }
 
 @media only screen and (max-width: 320px) {
-  .banner-container {
-    height: 19vh;
-  }
-  .banner-overlay {
-    height: 19vh;
-  }
   .text-overlay {
-    font-size: 23px;
-    margin-top: 21%;
+    font-size: 46px;
   }
 }
