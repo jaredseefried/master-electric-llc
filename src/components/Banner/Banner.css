@@ -79,15 +79,16 @@
     height: 22vh;
   }
   .text-overlay {
-    font-size: 38px;
+    font-size: 28px;
     border: none;
     margin-top: 21%;
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 425px) {
   .text-overlay {
-    font-size: 30px;
+    font-size: 28px;
     border: none;
     margin-top: 21%;
   }
@@ -95,7 +96,7 @@
 
 @media only screen and (max-width: 375px) {
   .text-overlay {
-    font-size: 32px;
+    font-size: 27px;
     border: none;
     margin-top: 20%;
   }
@@ -109,7 +110,7 @@
     height: 19vh;
   }
   .text-overlay {
-    font-size: 28px;
+    font-size: 23px;
     margin-top: 21%;
   }
 }
