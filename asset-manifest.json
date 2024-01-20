@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.42052856.css",
-    "main.js": "/static/js/main.9f8f0b96.js",
+    "main.js": "/static/js/main.1779e41e.js",
     "static/media/main1.jpg": "/static/media/main1.338a4343c400b289c1cd.jpg",
     "static/media/overhead-light.jpg": "/static/media/overhead-light.7ac563623a5f4e63c410.jpg",
     "static/media/kitchen-remodel.jpg": "/static/media/kitchen-remodel.b6fb530a3acfebb126e0.jpg",
@@ -9,10 +9,10 @@
     "static/media/Master-Electric-LLC.png": "/static/media/Master-Electric-LLC.eb66427f00a1a60e3e58.png",
     "index.html": "/index.html",
     "main.42052856.css.map": "/static/css/main.42052856.css.map",
-    "main.9f8f0b96.js.map": "/static/js/main.9f8f0b96.js.map"
+    "main.1779e41e.js.map": "/static/js/main.1779e41e.js.map"
   },
   "entrypoints": [
     "static/css/main.42052856.css",
-    "static/js/main.9f8f0b96.js"
+    "static/js/main.1779e41e.js"
   ]
 }
