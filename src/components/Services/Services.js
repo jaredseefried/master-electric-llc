@@ -38,7 +38,12 @@ export default function Services() {
         <Row>
           <Col className="col-12 col-md-4">
             <Card className="shadow services-card-style">
-              <Card.Img variant="top" src={OverheadLight} />
+              <Card.Img
+                variant="top"
+                src={OverheadLight}
+                alt="Custom lighting setup for various businesses"
+                title="Custom lighting setup for various businesses"
+              />
               <Card.Body className="card-body-style">
                 <Card.Title className="card-body-title">
                   Diverse Expertise
@@ -57,7 +62,12 @@ export default function Services() {
           </Col>
           <Col className="col-12 col-md-4">
             <Card className="shadow services-card-style">
-              <Card.Img variant="top" src={KitchenRemodel} />
+              <Card.Img
+                variant="top"
+                src={KitchenRemodel}
+                alt="Kitchen remodel adding new stove and overhead fan"
+                title="Kitchen Stove and Overhead"
+              />
               <Card.Body className="card-body-style">
                 <Card.Title className="card-body-title">
                   How I Can Help
@@ -76,7 +86,12 @@ export default function Services() {
           </Col>
           <Col className="col-12 col-md-4">
             <Card className="shadow services-card-style">
-              <Card.Img variant="top" src={Wiring} />
+              <Card.Img
+                variant="top"
+                src={Wiring}
+                alt="Installed new custom electrical panel"
+                title="Electrical Panel"
+              />
               <Card.Body className="card-body-style">
                 <Card.Title className="card-body-title">
                   Certified and Licensed

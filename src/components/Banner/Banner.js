@@ -8,8 +8,8 @@ export default function Banner() {
     <div className="banner-container shadow  rounded">
       <Image
         src={MainImage}
-        alt="Descriptive text"
-        title="Additional information about the image"
+        alt="Custom LED lights and Lighting Control in liquor distrobution warehouse"
+        title="Custom LED lights and Lighting Control"
         className="banner-image"
         fluid
       />
