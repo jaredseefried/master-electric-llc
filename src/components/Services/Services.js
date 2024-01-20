@@ -70,7 +70,7 @@ export default function Services() {
               />
               <Card.Body className="card-body-style">
                 <Card.Title className="card-body-title">
-                  How I Can Help
+                  How We Can Help
                 </Card.Title>
                 <Card.Subtitle className="card-body-subtitle mb-2 text-muted">
                   Comprehensive Solutions
