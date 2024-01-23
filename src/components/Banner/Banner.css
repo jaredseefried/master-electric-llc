@@ -84,7 +84,7 @@
     height: 35vh;
   }
   .text-overlay {
-    /* display: none; */
+    display: none;
     width: 100%;
     font-size: 57px;
     margin-top: 20%;
