@@ -23,10 +23,6 @@
 .hp-link {
   color: white;
   font-size: 25px;
-  border-left: 2px solid rgba(20, 27, 31, 0.1);
-  border-bottom: 2px solid rgba(20, 27, 31, 0.1);
-  border-top: 2px solid rgba(20, 27, 31, 0.1);
-  border-right: 2px solid rgba(20, 27, 31, 0.1);
 }
 
 .social-icons {
@@ -111,5 +107,13 @@
 }
 
 .navbar-toggler {
-  background-color: white;
+  background-color: #68774f;
+}
+
+@media only screen and (max-width: 450px) {
+  .ma-logo {
+    position: absolute;
+    width: 28%;
+    top: 0;
+  }
 }

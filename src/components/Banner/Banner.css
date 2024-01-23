@@ -84,13 +84,10 @@
     height: 35vh;
   }
   .text-overlay {
-    display: none;
-    width: 100%;
-    font-size: 57px;
-    margin-top: 20%;
-    text-align: left;
-    padding-left: 3%;
     border: none;
+    margin-top: 25%;
+    filter: drop-shadow(5px 5px 5px #000);
+    width: 100%;
   }
 }
 
