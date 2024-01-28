@@ -1,9 +1,9 @@
 import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
-import "./Services.css";
-import OverheadLight from "../../images/overhead-light.jpg";
 import KitchenRemodel from "../../images/kitchen-remodel.jpg";
+import OverheadLight from "../../images/overhead-light.jpg";
 import Wiring from "../../images/wiring.jpg";
+import "./Services.css";
 
 export default function Services() {
   return (

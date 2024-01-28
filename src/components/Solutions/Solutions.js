@@ -1,8 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { FaBolt, FaPlugCircleCheck } from "react-icons/fa6";
 import "./Solutions.css";
-import { FaBolt } from "react-icons/fa6";
-import { FaPlugCircleCheck } from "react-icons/fa6";
 
 export default function Solutions() {
   return (

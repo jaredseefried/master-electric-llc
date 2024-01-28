@@ -1,10 +1,10 @@
 import "./App.css";
 import Banner from "./components/Banner/Banner";
-import Navigation from "./components/navigation/Navigation";
+import Footer from "./components/Footer/Footer";
 import Reviews from "./components/Reviews/Reviews";
 import Services from "./components/Services/Services";
 import Solutions from "./components/Solutions/Solutions";
-import Footer from "./components/Footer/Footer";
+import Navigation from "./components/navigation/Navigation";
 
 function App() {
   return (

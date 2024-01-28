@@ -1,8 +1,7 @@
 import React from "react";
-import Link from "react";
-import "./Footer.css";
 import { Col, Container, Row } from "react-bootstrap";
-import { BsFacebook, BsYelp, BsLinkedin, BsInstagram } from "react-icons/bs";
+import { BsInstagram, BsLinkedin, BsYelp } from "react-icons/bs";
+import "./Footer.css";
 
 export default function Footer() {
   return (

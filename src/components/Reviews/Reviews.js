@@ -1,9 +1,9 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import "./Reviews.css";
 
 export default function Reviews() {
