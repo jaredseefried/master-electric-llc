@@ -28,6 +28,19 @@
   padding-bottom: 2%;
 }
 
+#write-review-button {
+  background-color: #68774f;
+  border: none;
+}
+
+#write-review-button:hover {
+  background-color: #a58d68;
+}
+
+#write-review-container {
+  margin-top: 3%;
+}
+
 @media screen and (max-width: 450px) {
   #review-card1,
   #review-card3 {

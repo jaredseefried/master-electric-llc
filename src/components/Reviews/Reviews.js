@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 import "./Reviews.css";
 
 export default function Reviews() {
@@ -146,6 +147,19 @@ export default function Reviews() {
                 </Row>
               </Card.Body>
             </Card>
+          </Col>
+        </Row>
+        <Row>
+          <Col id="write-review-container">
+            <h3 id="write-review-header">Write a review on Google!</h3>
+            <Button
+              href="https://g.co/kgs/PxdCw6w"
+              id="write-review-button"
+              size="lg"
+              target="_blank"
+            >
+              Google Reviews
+            </Button>
           </Col>
         </Row>
       </Container>

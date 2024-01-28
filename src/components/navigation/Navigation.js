@@ -38,15 +38,19 @@ export default function Navigation() {
               </Navbar.Brand>
             </Nav>
             <Nav className="social-icon-container1">
-              <Navbar.Text className="social-icon-container">
+              <Nav.Link className="social-icon-container">
                 <BsInstagram className="social-icons" />
-              </Navbar.Text>
-              <Navbar.Text className="social-icon-container">
+              </Nav.Link>
+              <Nav.Link className="social-icon-container">
                 <BsLinkedin className="social-icons" />
-              </Navbar.Text>
-              <Navbar.Text className="social-icon-container">
+              </Nav.Link>
+              <Nav.Link
+                className="social-icon-container"
+                href="https://www.yelp.com/biz/master-electric-aurora-2"
+                target="_blank"
+              >
                 <BsYelp className="social-icons" />
-              </Navbar.Text>
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

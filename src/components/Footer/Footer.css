@@ -29,6 +29,14 @@
   margin-bottom: 0rem;
 }
 
+.footer-social-icon-a {
+  color: white;
+}
+
+.footer-social-icon-a:hover {
+  color: #a58d68;
+}
+
 @media screen and (max-width: 450px) {
   #footer-email {
     padding-left: 0%;
